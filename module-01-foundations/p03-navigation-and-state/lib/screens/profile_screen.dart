@@ -40,7 +40,7 @@ class ProfileScreen extends ConsumerWidget {
           Center(
             child: CircleAvatar(
               radius: 48,
-              backgroundColor: const Color(0xFF0397D6).withOpacity(0.15),
+              backgroundColor: const Color(0xFF0397D6).withValues(alpha: 0.15),
               child: Text(
                 (authState.displayName ?? 'G')[0].toUpperCase(),
                 style: const TextStyle(

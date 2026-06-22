@@ -56,7 +56,7 @@ class HomeScreen extends ConsumerWidget {
                               // ref.read for event handlers
                               ref.read(selectedFilterProvider.notifier).state = filter;
                             },
-                            selectedColor: const Color(0xFF0397D6).withOpacity(0.2),
+                            selectedColor: const Color(0xFF0397D6).withValues(alpha: 0.2),
                           ),
                         ))
                     .toList(),
@@ -139,7 +139,7 @@ class _CourseCard extends StatelessWidget {
           width: 48,
           height: 48,
           decoration: BoxDecoration(
-            color: const Color(0xFF0397D6).withOpacity(0.1),
+            color: const Color(0xFF0397D6).withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(10),
           ),
           child: Center(

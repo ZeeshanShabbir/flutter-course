@@ -128,6 +128,7 @@ void main() {
   List<String> names = scoreMap.keys.toList();
   List<int> allScores = scoreMap.values.toList();
   print('Names: $names');
+  print('Scores: $allScores');
 
   // Map.entries — gives you MapEntry objects
   List<String> formatted = scoreMap.entries
