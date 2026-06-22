@@ -1,0 +1,32 @@
+name: p09_app_polish_and_animations
+description: >
+  P09 — App Polish & Animations.
+  AnimatedContainer, Hero animations, AnimatedOpacity,
+  AnimatedSwitcher, Lottie files, skeleton loaders,
+  responsive design with MediaQuery and LayoutBuilder,
+  dark mode setup and persistence.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  lottie: ^3.1.0           # Lottie JSON animations
+  shimmer: ^3.0.0          # skeleton/shimmer loading effect
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lottie/

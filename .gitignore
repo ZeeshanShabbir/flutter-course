@@ -1,0 +1,60 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.code-workspace
+
+# IntelliJ / Android Studio
+.idea/
+*.ipr
+*.iws
+
+# Android
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+
+# iOS
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Podfile.lock
+**/Pods/
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Environment / Secrets — NEVER commit these
+.env
+.env.local
+secrets.dart
+api_keys.dart
+
+# macOS
+.DS_Store
+
+# Coverage
+coverage/
+lcov.info
+
+# Generated files (regenerate with: dart run build_runner build)
+*.g.dart
+*.freezed.dart
+*.gr.dart

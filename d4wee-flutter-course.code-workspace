@@ -1,0 +1,121 @@
+{
+  "folders": [
+    {
+      "name": "📦 Course Root",
+      "path": "."
+    },
+    {
+      "name": "M01 · P01 — Dart Crash Course",
+      "path": "module-01-foundations/p01-dart-crash-course"
+    },
+    {
+      "name": "M01 · P02 — Flutter Fundamentals",
+      "path": "module-01-foundations/p02-flutter-fundamentals"
+    },
+    {
+      "name": "M01 · P03 — Navigation & State",
+      "path": "module-01-foundations/p03-navigation-and-state"
+    },
+    {
+      "name": "M01 · P04 — Forms & Local Storage",
+      "path": "module-01-foundations/p04-forms-and-local-storage"
+    },
+    {
+      "name": "M02 · P05 — REST APIs & HTTP",
+      "path": "module-02-building-real-features/p05-rest-apis-and-http"
+    },
+    {
+      "name": "M02 · P06 — Firebase Full-Stack",
+      "path": "module-02-building-real-features/p06-firebase-fullstack"
+    },
+    {
+      "name": "M02 · P07 — Packages & Notifications",
+      "path": "module-02-building-real-features/p07-packages-and-notifications"
+    },
+    {
+      "name": "M02 · P08 — Mini-Project (Task Manager)",
+      "path": "module-02-building-real-features/p08-mini-project"
+    },
+    {
+      "name": "M03 · P09 — App Polish & Animations",
+      "path": "module-03-shipping-and-ai/p09-app-polish-and-animations"
+    },
+    {
+      "name": "M03 · P10 — Testing & Crash Reporting",
+      "path": "module-03-shipping-and-ai/p10-testing-and-crash-reporting"
+    },
+    {
+      "name": "M03 · P11 — AI Dev Tools",
+      "path": "module-03-shipping-and-ai/p11-ai-dev-tools"
+    },
+    {
+      "name": "M03 · P12 — AI Features in App",
+      "path": "module-03-shipping-and-ai/p12-ai-features-in-app"
+    },
+    {
+      "name": "M04 · P13 — Capstone App",
+      "path": "module-04-capstone-and-career/p13-capstone-plan-and-build"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.tabSize": 2,
+    "dart.lineLength": 80,
+    "files.exclude": {
+      "**/.dart_tool": true,
+      "**/build": true,
+      "**/.flutter-plugins": true,
+      "**/.flutter-plugins-dependencies": true
+    },
+    "search.exclude": {
+      "**/build": true,
+      "**/.dart_tool": true,
+      "**/*.g.dart": true,
+      "**/*.freezed.dart": true
+    },
+    "editor.rulers": [80],
+    "dart.completeFunctionCalls": true,
+    "dart.showTodos": true
+  },
+  "extensions": {
+    "recommendations": [
+      "Dart-Code.flutter",
+      "Dart-Code.dart-code",
+      "Nash.awesome-flutter-snippets",
+      "usernamehw.errorlens",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "P02 — Flutter Fundamentals",
+        "cwd": "${workspaceFolder:M01 · P02 — Flutter Fundamentals}",
+        "request": "launch",
+        "type": "dart"
+      },
+      {
+        "name": "P03 — Navigation & State",
+        "cwd": "${workspaceFolder:M01 · P03 — Navigation & State}",
+        "request": "launch",
+        "type": "dart"
+      },
+      {
+        "name": "P08 — Mini-Project",
+        "cwd": "${workspaceFolder:M02 · P08 — Mini-Project (Task Manager)}",
+        "request": "launch",
+        "type": "dart"
+      },
+      {
+        "name": "P13 — Capstone",
+        "cwd": "${workspaceFolder:M04 · P13 — Capstone App}",
+        "request": "launch",
+        "type": "dart"
+      }
+    ]
+  }
+}

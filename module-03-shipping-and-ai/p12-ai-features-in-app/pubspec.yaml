@@ -1,0 +1,36 @@
+name: p12_ai_features_in_app
+description: >
+  P12 — AI Features in Your App.
+  OpenAI API chatbot with streaming, Google ML Kit on-device
+  (text recognition, language detection), and building AI-powered
+  UX responsibly with rate limiting and cost awareness.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+
+  # OpenAI API — server-side AI features
+  # dart_openai: ^5.1.0   ← option 1
+  dio: ^5.4.0             # we use raw Dio for clarity
+
+  # Google ML Kit — ON-DEVICE AI (no API key, no cost)
+  google_mlkit_text_recognition: ^0.13.0
+  google_mlkit_language_id: ^0.10.0
+  image_picker: ^1.0.7
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

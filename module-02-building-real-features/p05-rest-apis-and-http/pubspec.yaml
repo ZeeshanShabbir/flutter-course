@@ -1,0 +1,33 @@
+name: p05_rest_apis_and_http
+description: >
+  P05 — REST APIs & HTTP Networking.
+  Dio setup, interceptors, JSON parsing, json_serializable,
+  Freezed, loading/error/empty states, connectivity check.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^13.0.0
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
