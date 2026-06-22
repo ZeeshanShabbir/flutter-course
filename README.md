@@ -1,74 +1,51 @@
-# Mobile Development with Flutter — D4WEE Course Codebase
+# Mobile Development with Flutter — D4WEE Course
 
-**Instructor:** Muhammad Zeeshan Shabbir  
-**Organisation:** Code for Pakistan · D4WEE Programme  
+**Instructor:** Muhammad Zeeshan Shabbir
+**Organisation:** Code for Pakistan · D4WEE Programme
 **Duration:** 3 Months (12 Weeks) | **Level:** Beginner → Job-Ready
 
 ---
 
-## 📁 Repository Structure
+## What This Repo Is
 
-This is the **single mega-repo** for the entire course. Every module and every project lives here so students can clone once and follow along without hunting for separate repos.
-
-```
-flutter-course-d4wee/
-│
-├── module-01-foundations/          ← Weeks 1–3
-│   ├── p01-dart-crash-course/      ← Pure Dart practice scripts
-│   ├── p02-flutter-fundamentals/   ← First Flutter app
-│   ├── p03-navigation-and-state/   ← GoRouter + Riverpod
-│   └── p04-forms-and-local-storage/← Forms + Hive/SharedPrefs
-│
-├── module-02-building-real-features/ ← Weeks 4–6
-│   ├── p05-rest-apis-and-http/     ← Dio, JSON, Freezed
-│   ├── p06-firebase-fullstack/     ← Auth, Firestore, Storage
-│   ├── p07-packages-and-notifications/ ← image_picker, FCM
-│   └── p08-mini-project/           ← FULL APP: Task Manager
-│
-├── module-03-shipping-and-ai/      ← Weeks 7–9
-│   ├── p09-app-polish-and-animations/ ← Hero, Lottie, responsive
-│   ├── p10-testing-and-crash-reporting/ ← Unit + widget tests
-│   ├── p11-ai-dev-tools/           ← Prompt patterns, Cursor tips
-│   └── p12-ai-features-in-app/     ← OpenAI API + ML Kit
-│
-└── module-04-capstone-and-career/  ← Weeks 10–12
-    ├── p13-capstone-plan-and-build/ ← CAPSTONE APP (production)
-    ├── p14-publishing-to-stores/   ← Play Store + App Store guides
-    ├── p15-freelancing/            ← Upwork/Fiverr templates
-    └── p16-professional-employment/ ← Resume + interview prep
-```
+This is the official code repository for the D4WEE Flutter course. New modules are
+added here as they are covered in class — clone once and pull to stay up to date.
 
 ---
 
-## 🚀 How to Use This Repo
+## Currently Available
 
-### Clone Once
+| Module | Part | Topic | Week |
+|--------|------|-------|------|
+| 01 | P01 | Dart Crash Course | 1 |
+
+---
+
+## How to Use
+
+### 1. Clone the repo
+
 ```bash
-git clone https://github.com/your-org/flutter-course-d4wee.git
+git clone <repo-url>
 cd flutter-course-d4wee
 ```
 
-### Open a Project in VS Code
-Each `p0X-*` folder that contains a `pubspec.yaml` is a **standalone Flutter project**. Open it directly:
+### 2. Stay up to date
 
 ```bash
-code module-01-foundations/p02-flutter-fundamentals
+git pull
 ```
 
-### Install Dependencies
-Inside any Flutter project folder:
-```bash
-flutter pub get
-```
+Run this before every class to get newly released code.
 
-### Run the App
-```bash
-flutter run
-```
+### 3. Open a part
+
+Each `pXX-*` folder is self-contained. Open it in your editor and follow the
+`README.md` inside for setup and run instructions.
 
 ---
 
-## 📋 16-Part Curriculum at a Glance
+## Full Curriculum (released week by week)
 
 | Module | Part | Topic | Week |
 |--------|------|-------|------|
@@ -91,22 +68,12 @@ flutter run
 
 ---
 
-## 🛠 Prerequisites
+## Notes for Students
 
-- Flutter SDK (stable channel) — [flutter.dev](https://flutter.dev/docs/get-started/install)
-- Dart SDK (bundled with Flutter)
-- VS Code + Flutter & Dart extensions
-- Android Studio or Xcode (for device emulation)
-- Git
-
----
-
-## 📝 Notes for Students
-
-- **Read the comments.** Every file is heavily commented to explain *why*, not just *what*.
-- **Don't just copy-paste.** Type the code yourself — muscle memory matters.
+- **Read the comments.** Every file is commented to explain *why*, not just *what*.
+- **Don't copy-paste.** Type the code yourself — muscle memory matters.
 - **Each part builds on the previous one.** Work through them in order.
-- **Check the `README.md` inside each part** for setup instructions and learning goals.
+- **Read the `README.md` inside each part** for setup and learning goals.
 
 ---
 
