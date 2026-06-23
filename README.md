@@ -18,6 +18,7 @@ added here as they are covered in class — clone once and pull to stay up to da
 | Module | Part | Topic | Week |
 |--------|------|-------|------|
 | 01 | P01 | Dart Crash Course | 1 |
+| 01 | P02 | Flutter Fundamentals | 2 |
 
 ---
 
