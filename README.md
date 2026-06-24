@@ -1,7 +1,7 @@
 # Mobile Development with Flutter — D4WEE Course
 
 **Instructor:** Muhammad Zeeshan Shabbir
-**Organisation:** Code for Pakistan · D4WEE Programme
+**Organisation:** Code for Pakistan · Programme
 **Duration:** 3 Months (12 Weeks) | **Level:** Beginner → Job-Ready
 
 ---
@@ -18,7 +18,6 @@ added here as they are covered in class — clone once and pull to stay up to da
 | Module | Part | Topic | Week |
 |--------|------|-------|------|
 | 01 | P01 | Dart Crash Course | 1 |
-| 01 | P02 | Flutter Fundamentals | 2 |
 
 ---
 
@@ -78,4 +77,4 @@ Each `pXX-*` folder is self-contained. Open it in your editor and follow the
 
 ---
 
-*Prepared for Code for Pakistan · D4WEE Programme · 2026*
+*Prepared for Code for Pakistan · Programme · 2026*

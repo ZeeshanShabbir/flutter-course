@@ -46,10 +46,10 @@ class HomeScreen extends StatelessWidget {
                 'D4WEE Learning App',
                 style: theme.textTheme.displayLarge,
               ),
-              const SizedBox(height: 4),
-              Text(
+              const SizedBox(height: 4), Text(
                 'Mobile Development with Flutter · 2026',
-                style: theme.textTheme.bodyMedium,
+              
+               style: theme.textTheme.bodyMedium,
               ),
 
               const SizedBox(height: 32),
@@ -87,6 +87,13 @@ class HomeScreen extends StatelessWidget {
                     _DemoCard(
                       icon: Icons.palette_outlined,
                       title: 'Theme',
+                      subtitle: 'Colors, typography, dark mode',
+                      color: const Color(0xFFDDB307),
+                      onTap: () => _showThemeInfo(context, theme),
+                    ),
+                    _DemoCard(
+                      icon: Icons.palette_outlined,
+                      title: 'Theme copy',
                       subtitle: 'Colors, typography, dark mode',
                       color: const Color(0xFFDDB307),
                       onTap: () => _showThemeInfo(context, theme),
@@ -157,6 +164,7 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
+
 // ============================================================
 // REUSABLE PRIVATE WIDGETS
 // Underscore prefix = private to this file
@@ -218,6 +226,30 @@ class _DemoCard extends StatelessWidget {
       ),
     );
   }
+}
+
+class _Demo2 extends StatelessWidget {
+
+  final String name;
+  final VoidCallback onTap;
+
+  const _Demo2({
+      required this.name,
+      required this.onTap
+    }
+  );
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: InkWell(
+        onTap: onTap,
+        child: Text("Please Tap me here!"),
+      ),
+    );
+  }
+
 }
 
 class _ColorRow extends StatelessWidget {

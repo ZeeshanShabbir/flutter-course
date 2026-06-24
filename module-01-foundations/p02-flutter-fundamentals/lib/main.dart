@@ -42,7 +42,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'D4WEE Flutter Fundamentals',
       debugShowCheckedModeBanner: false, // hides the "DEBUG" ribbon
-
       // -------------------------------------------------------
       // ThemeData — define your app's visual language ONCE here.
       // Every widget inherits these values automatically.
