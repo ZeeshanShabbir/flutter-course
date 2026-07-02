@@ -1,5 +1,4 @@
-# Mobile Development with Flutter — D4WEE Course
-
+# Mobile Development with Flutter
 **Instructor:** Muhammad Zeeshan Shabbir
 **Organisation:** Code for Pakistan · Programme
 **Duration:** 3 Months (12 Weeks) | **Level:** Beginner → Job-Ready
