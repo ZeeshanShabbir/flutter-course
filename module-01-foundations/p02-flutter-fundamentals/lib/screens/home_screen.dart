@@ -91,13 +91,7 @@ class HomeScreen extends StatelessWidget {
                       color: const Color(0xFFDDB307),
                       onTap: () => _showThemeInfo(context, theme),
                     ),
-                    _DemoCard(
-                      icon: Icons.palette_outlined,
-                      title: 'Theme copy',
-                      subtitle: 'Colors, typography, dark mode',
-                      color: const Color(0xFFDDB307),
-                      onTap: () => _showThemeInfo(context, theme),
-                    ),
+                    
                   ],
                 ),
               ),
